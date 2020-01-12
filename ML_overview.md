@@ -80,7 +80,9 @@ KKT：https://blog.csdn.net/qq_32763149/article/details/81055062
 {} & {\alpha_{i} \geq 0, \quad i=1,2, \cdots, N}
 \end{array}
 
-2. 线性不可分的情况：对每个样本引入一个松弛变量 $\xi_{i} \geq 0$, 约束条件和目标函数变为 $$\begin{aligned}
+2. 线性不可分的情况：对每个样本引入一个松弛变量 $\xi_{i} \geq 0$, 约束条件和目标函数变为
+
+ $$\begin{aligned}
 &y_{i}\left(w \cdot x_{i}+b\right) \geq 1-\xi_{i}\\
 &\min _{w, b, \xi} \frac{1}{2}\|w\|^{2}+C \sum_{i=1}^{N} \xi_{i}
 \end{aligned}$$
